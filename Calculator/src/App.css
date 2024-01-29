@@ -1,0 +1,53 @@
+.parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+input {
+  width: 240px;
+  height: 40px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: right;
+  padding: 5px;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+}
+
+.all {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebtns {
+  display: flex;
+}
+
+.nums {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+button {
+  width: 60px;
+  height: 60px;
+  font-size: 20px;
+  margin: 5px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #ff1100b3;
+  /* color: red; */
+}
+
+
+button:active {
+  background-color: #d9d9d9;
+}
